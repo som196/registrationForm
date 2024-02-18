@@ -1,0 +1,75 @@
+/* Write your CSS code here */
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  margin: 5%;
+}
+.submit-button {
+  background-color: #ea580c;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 100px;
+  color: white;
+  height: 30px;
+
+  border-radius: 10px;
+}
+.heading {
+  color: #ea580c;
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.render-username-container {
+  display: flex;
+  flex-direction: column;
+}
+.username-label {
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.error-msg-container {
+  color: red;
+}
+.username-input {
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.after-form-submitted {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.submitted-para {
+  color: black;
+}
+.submit-another {
+  background-color: #ea580c;
+  width: 200px;
+  outline: none;
+  margin-left: 10px;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hightlightborder {
+  border-color: red;
+}
